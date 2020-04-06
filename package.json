@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "inferno": "^7.4.2",
-    "inferno-scripts": "7.0.4"
+    "inferno-hyperscript": "^7.4.2"
   },
   "scripts": {
     "start": "inferno-scripts start",
@@ -15,10 +15,9 @@
   "eslintConfig": {
     "extends": "inferno-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
 }

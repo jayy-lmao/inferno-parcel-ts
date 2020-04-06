@@ -1,0 +1,15 @@
+
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "jsx":"react",
+    "jsxFactory":"h",
+    "lib":["dom","ESNext"],
+    "module": "commonjs",                    
+    "strict": true,                         
+    "moduleResolution":"Node",
+    "esModuleInterop": true,               
+    "forceConsistentCasingInFileNames": true 
+  },
+  "include":["src"]
+}
